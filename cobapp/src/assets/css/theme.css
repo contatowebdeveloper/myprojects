@@ -1,0 +1,1789 @@
+/* Para exibição no Cobsystem */
+@media screen and (min-width: 1200px) {
+    .divToTable{
+        display: table;
+        width: auto !important;
+    }    
+    .divToTable-Cell-Width-Fixed {
+        width: 147px !important;
+        white-space: nowrap;
+        display: table-cell;
+    }
+  }
+
+@media screen and (min-width: 1100px) {
+    .divToTable{
+        display: table;
+        width: auto !important;
+    }
+    .divToTable-Cell-Width-Fixed {
+        width: 150px !important;
+        white-space: nowrap;
+        display: table-cell;
+    }
+}
+
+/* Para exibição no Browser */
+@media screen and (min-width: 1440px) {
+    .divToTable{
+        display: table;
+        width: auto !important;
+    }
+    .divToTable-Cell-Width-Fixed {
+        width: 168px !important;
+        white-space: nowrap;
+        display: table-cell;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        margin: 0.4rem auto;
+    }
+}
+
+@media (min-width: 992px){
+    .modal-lg, .modal-xl {
+        max-width: 950px;
+    }
+}
+
+.nowrap-text{
+    word-break: keep-all !important;
+    white-space: nowrap !important;
+}
+
+/********* DivToTable ********/
+.divToTable-Row{
+    display: table-row;
+}
+.divToTable-Row-Group{
+    display: table-row-group;
+}
+.divToTable-Colum-Group{
+    display: table-column-group;
+}
+.divToTable-Column{
+    display: table-column;
+}
+.divToTable-Cell{
+    display: table-cell;
+}
+.divToTable-Footer-Group{
+    display: table-footer-group;
+}
+.divToTable-Caption{
+    display: table-caption;
+}
+.divToTable-Header-Group{
+    display: table-header-group;
+}
+/********* DivToTable ********/
+
+/********* App *********/
+.App {
+    text-align: center;
+}
+  
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+  
+.DivCob-menu-collapse {
+    float: left;
+    position: fixed !important;
+    z-index: 1050;
+    height: 100%;
+    width: 208px;
+    top: 0px;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+}
+  
+.NavCob-collapse {
+    position: absolute;
+    height: 100%;
+}
+  
+.ButtonCob-collapse {
+    height: 30px;
+    width: 35px;
+    border-radius: 0px;
+    transform : rotate(180deg); 
+    box-shadow: none !important;
+    background-color: #f8f9fa;
+}
+  
+.DivCob-grid {
+    width: 100%;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.DivCob-alert {
+    position: fixed;
+    z-index: 2002;
+    width: 300px;
+    height: 200px;
+    font-size: 12px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    text-align: center; 
+    top: 30%;
+}
+
+.DivCob-alert-modal {
+    width: 300px;
+    font-size: 12px;    
+}
+
+.DivCob-alert-modal {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.TextCob-alert-Success {
+    text-align: center;
+    padding-left: 12%;
+}
+
+.TextCob-alert-danger {
+    text-align: center;
+    padding-left: 12%;
+}
+
+.TextCob-alert-warning {
+    text-align: center;
+    padding-left: 12%;
+}
+
+.TextCob-alertHeader-Warning {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.TextCob-alertHeader-Success {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.HeaderCob-navbar {
+    margin-left: 35px;
+    height: 30px !important;
+}
+
+.ButtonCob-navbar {
+    margin: 5px;
+    font-family: Arial;
+    font-size: 11px !important;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px !important;
+    padding: 3px 4px !important;
+    width: 80px;
+    line-height: 11px !important;
+}
+
+.ButtonCob-navbar-primary {
+    margin: 5px;
+    font-family: Arial;
+    font-size: 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 4px;
+    width: 80px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-navbar-primary:active {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ButtonCob-navbar-primary:focus {
+    outline:0;
+}
+
+.ButtonCob-navbar-danger {
+    margin: 5px;
+    font-family: Arial;
+    font-size: 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 4px;
+    width: 80px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-navbar-danger:active {
+    box-shadow: 0 0 0 0.2rem rgba(255, 38, 38, 0.5);
+}
+
+.ButtonCob-navbar-danger:focus {
+    outline:0;
+}
+
+.disabled {
+    background-color: rgba(170, 167, 167, 0.301);
+    cursor: not-allowed; 
+}
+
+.disabled:active {
+    box-shadow: none;
+}
+
+.ButtonCob-navbar-all-register {
+    margin: 5px;
+    font-family: Arial;
+    font-size: 11px !important;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px !important;
+    padding: 3px 4px !important;
+    width: 120px;
+    line-height: 11px !important;
+}
+
+.buttonActive {
+    background-color: rgb(0, 96, 223);
+}
+
+.actived {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ButtonCob-navbar-acionamento {
+    width:105px;
+}
+
+.ButtonCob-navbar-acionamento-promessa {
+    width: 120px;
+}
+.ButtonCob-navbar-acionamento-small {
+    width: 70px;
+}
+
+.ButtonCob-navbar-historico-todos-registros {
+    width: 175px !important;
+}
+
+.ButtonCob-navbar-events-align-left {
+    text-align: left;
+    margin: 0 10px 0 10px;
+}
+
+.ButtonCob-panel-acionamento-primary {
+    margin: 17px 5px 5px 5px;
+    font-family: Arial;
+    font-size: 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 4px;
+    width: 80px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-panel-acionamento-primary:active {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ButtonCob-panel-acionamento-primary:focus {
+    outline:0;
+}
+
+.ButtonCob-panel-acionamento-secondary {
+    margin: 17px 5px 5px 5px;
+    font-family: Arial;
+    font-size: 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 4px;
+    width: 80px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-panel-acionamento-secondary:active {
+    box-shadow: 0 0 0 0.2rem rgba(80, 80, 80, 0.5);
+}
+
+.ButtonCob-panel-acionamento-secondary:focus {
+    outline:0;
+}
+
+.ArrowCob-navcollapse {
+    content: "";
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
+    border-right: 5px solid gray;
+}
+
+.AlertCob-warning-modal {
+    position: relative;
+    width: 100%;
+    margin: -150px 0 0 150px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+}
+
+.loadingCob-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    z-index: 99856;
+    top: 0;
+    left: 0;
+}
+
+.loadingCob-overlay-grid {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    z-index: 1030;
+    top: 0;  
+}
+
+.AlertCob-error {
+    width : 50%;
+    border-radius: 5px;
+    margin : 12% 0 0 25%;
+}
+
+.Font-alert-error {
+    padding : 10px;
+    font-size: 15pt;
+    text-align: center;
+}
+  
+/********* Components *********/
+.TableCob-header {
+    line-height: 11px;
+    color: #191970;
+    font-size: 9pt;
+    font-family: Tahoma;
+    background-color: #FFFFFF;
+    border-top: 2px solid #dee2e6;
+    width: 100%;    
+    z-index: 5;
+}
+
+.TableCob-header-titulo {
+    line-height: 11px;
+    color: #191970;
+    font-size: 9pt;
+    font-family: Tahoma;
+    background-color: rgb(214, 214, 214) !important;
+}
+
+.header-fixed {
+    position:fixed;
+}
+
+.alignTextHeader-titulo {
+    margin-left: 45%;
+}
+
+.tableCob-Parcela-primary {
+    float: left;
+    width: 32.75%;
+    font-size: 8pt;
+    font-family: Verdana;
+    line-height: 13px;
+    margin: -2px 0px 0px 0px;
+    color: black;
+}
+
+.tableCob-Parcela-with-one-table>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.tableCob-Parcela-with-two-tables>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.tableCob-Parcela-with-two-tables-margin-left>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.tableCob-Parcela-primary>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.tableCob-Parcela-primary>tbody>tr:nth-child(2n+0){
+    background-color: rgba(0, 0, 0, 0.05);
+} 
+
+.tableCob-Parcela-primary>tbody>tr:nth-child(1n):hover{
+    background-color: rgba(172, 172, 172, 0.397);
+} 
+
+.tableCob-Parcela-secondary>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.tableCob-Parcela-secondary>tbody>tr:nth-child(2n+0){
+    background-color: rgba(0, 0, 0, 0.05);
+} 
+
+.tableCob-Parcela-secondary>tbody>tr:nth-child(1n):hover{
+    background-color: rgba(172, 172, 172, 0.397);
+} 
+
+.tableCob-Parcela-tertiary>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255,0.1);
+} 
+
+.tableCob-Parcela-tertiary>tbody>tr:nth-child(2n+0){
+    background-color: rgba(0, 0, 0, 0.05);
+} 
+
+.tableCob-Parcela-tertiary>tbody>tr:nth-child(1n):hover{
+    background-color: rgba(172, 172, 172, 0.397);
+} 
+
+.tableCob-Parcela-with-one-table>tbody>tr:nth-child(1n):hover {
+    background-color: rgba(172, 172, 172, 0.397);
+}
+
+.tableCob-Parcela-secondary {
+    float: left;
+    width: 32.75%;
+    font-size: 8pt;
+    font-family: Verdana;
+    line-height: 13px;
+    margin: -2px 0px 0px 10px; 
+    color: black;
+}
+
+.tableCob-Parcela-tertiary {
+    float: left;
+    width: 32.75%;
+    font-size: 8pt;
+    font-family: Verdana;
+    line-height: 13px;
+    margin: -2px 0px 0px 10px;
+    color: black;
+}
+
+.tableCob-Parcela-with-one-table {
+    max-width: 100%;
+    float:left;
+    font-size: 8pt;
+    font-family: Verdana;
+    line-height: 13px;
+    margin: -2px 0px 0px 0px; 
+    color: black;
+}
+
+.tableCob-Parcela-with-two-tables {
+    float:left;
+    width: 49.79%;
+    font-size: 8pt;
+    font-family: Verdana;
+    line-height: 13px;
+    margin: -2px 0px 0px 0px; 
+    color: black;
+}
+
+.tableCob-Parcela-with-two-tables-margin-left {
+    float:left;
+    width: 49.79%;
+    font-size: 8pt;
+    font-family: Verdana;
+    line-height: 13px;
+    margin: -2px 0px 0px 5px; 
+    color: black;
+}
+
+.theadCob-Parcela {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.TableCob-header-center {
+    text-align: center;
+} 
+
+.thead-none-border-top {
+    border-top: none !important;
+}
+
+.headerCob-tab {
+    /*background-color: rgba(192,192,192,0.3);*/
+    background-color: rgb(230, 227, 227);
+    line-height: 10px;
+	width: 100%;
+    height: 28px !important;
+}
+.nav-link {
+	font-family: Tahoma;
+	font-size: 9pt;
+    color:black;
+	border-left: 0.3px solid #C0C0C0 !important;
+	border-right: 1px solid #C0C0C0 !important;
+    border-top: 1px solid #C0C0C0 !important;
+    width: 100px;
+    text-align: left;
+}
+.tab-pane {
+    width: 100%;
+}
+.ficha_letravermelha {
+    color: #FF0000;
+}
+.ficha_letraazul {
+    color: #0000FF;
+}
+.ficha_letraverde {
+    color: #008000;
+}
+.ficha_letravermelhapequena {
+    color: #FF0000;
+}
+.ficha_letraazulpequena {
+    color: #0000FF;
+}
+.ficha_letrapretapequena {
+    color: BLACK;
+}
+.ficha_letraverdepequena {
+    color: #008000;
+}
+.ficha_letravermelha .ficha_letraazul .ficha_letraverde {
+    font-size: 12pt; 
+    font-family: Verdana;
+}
+.ficha_letravermelhapequena, .ficha_letraazulpequena, .ficha_letrapretapequena, .ficha_letraverdepequena, .ficha_letrapequena {
+    font-size: 10.6px !important; 
+    font-family: Verdana !important;
+    white-space: normal;
+    word-break: break-all;
+}
+.letravermelhapequena {
+    font-size: 10.6px;
+    color: #FF0000;
+    font-family: Verdana;
+}
+.letraverdepequena {
+    font-size: 10.6px;
+    color: #008000;
+    font-family: Verdana;
+}
+.letravermelha
+{
+    font-size: 12pt;
+    color: #FF0000;
+    font-family: Verdana
+}
+Font {
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+}
+.altura-p {
+    line-height: 0.1em;
+}
+.letrabatimento {
+	font-size: 8pt;
+    font-family: verdana;
+    white-space: pre-wrap;
+}
+
+.GridCob {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: left;
+    font-size: 8pt;
+    white-space: unset;
+    font-family: Verdana;
+    color: black;
+    overflow: hidden;
+    line-height: 13px; 
+    margin: 0 0 0 0; 
+}
+
+.GridCob tbody {
+    width: 100%;
+}
+
+.GridCob-WithPager tbody {
+    width: 100%;
+}
+
+.GridCob-WithPager {
+    width: 100%;
+    text-align: left;
+    font-size: 8pt;
+    white-space: unset;
+    font-family: Verdana;
+    color: black;
+    overflow: hidden;
+    line-height: 13px; 
+    margin: 50px 0 0 0;
+}
+
+.GridCob-HeaderFixed-Tbody {
+    margin-top: 20px;
+}
+
+.GridCob>tbody>tr:nth-child(2n+0){
+    background-color: rgb(240, 240, 240);
+} 
+.GridCob>tbody>tr:nth-child(4n+0){
+    background-color: rgb(255, 255, 255); 
+}
+
+.GridCob-WithPager>tbody>tr:nth-child(2n+0){
+    background-color: rgb(240, 240, 240);
+} 
+.GridCob-WithPager>tbody>tr:nth-child(4n+0){
+    background-color: rgb(255, 255, 255); 
+}
+
+.GridCobReport>tbody>tr:nth-child(2n+0){
+    background-color: rgb(240, 240, 240);
+} 
+.GridCobReport>tbody>tr:nth-child(4n+0){
+    background-color: rgb(255, 255, 255); 
+}
+
+.GridCob-Titulo {
+    max-width: 100%;
+    text-align: left;
+    font-size: 10.6px;
+    white-space: unset;
+    font-family: Verdana;
+    color: black;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+}
+
+.GridCob-Titulo td {
+    padding: 0.001rem 0.3% 0.001rem 0.3% !important;
+}
+
+.GridCob-Titulo th {
+    padding: 0.1rem !important;
+}
+
+.GridCobReport {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: left;
+    font-size: 8pt;
+    font-family: Verdana;
+    color: black;
+    overflow: hidden;
+    line-height: 13px;
+    margin-bottom: 0px !important;
+}
+
+.None-register-table {
+    text-align: center;
+}
+
+.None-register-table:hover {
+    background-color: #FFF !important;
+}
+
+.ButtonCob-grid {
+    line-height: 2px !important;
+    width: 30px;
+}
+
+.Text-grid-button {
+    font-size: 13pt;
+}
+
+.Component-CheckboxCob-menu{
+    position: relative;
+    margin: 5px 0 0 15px;
+    width: 180px;
+    min-height: 13px;
+    text-align: initial;
+}
+
+.Component-CheckboxCob-menu input {
+    margin: 0px;
+    float: left;
+}
+
+.Component-CheckboxCob-menu label {
+    width: 155px !important;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 7pt;
+    vertical-align: super;
+}
+
+.CheckboxCob-label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 13px;
+    height: 13px;
+    margin: 0px 0px 0px 10px;
+    clear: both; 
+}
+
+.align-label-checkbox {
+    white-space: nowrap;
+}
+
+.CheckboxCob-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0px;
+}
+
+.CheckboxCob-input-label {
+    margin: 0px 0px 0px 20px;
+    white-space: nowrap;
+    left: 0px;
+    position: absolute;
+}
+
+.CheckboxCob-label .CheckboxCob-custom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 13px;
+    width: 13px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.CheckboxCob-label input:checked ~ .CheckboxCob-custom {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity:1;
+    border: 2px solid #FFFFFF;
+}
+
+.CheckboxCob-label .CheckboxCob-custom::after {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 2px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(0deg) scale(0);
+    -ms-transform: rotate(0deg) scale(0);
+    transform: rotate(0deg) scale(0);
+    opacity:1;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.CheckboxCob-label input:checked ~ .CheckboxCob-custom::after {
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    opacity:1;
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 8px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.CheckboxCob-label .CheckboxCob-custom.circular {
+    border-radius: 20%;
+    border: 1px solid rgb(163, 158, 158);
+}
+
+.CheckboxCob-label input:checked ~ .CheckboxCob-custom.circular {
+    background-color: #FFFFFF;
+    border-radius: 20%;
+    border: 1px solid rgb(163, 158, 158);
+}
+
+.CheckboxCob-word-break {
+    word-break: break-word;
+}
+
+.HoverCob {
+    position: absolute; 
+    left: 95%;
+    display:none; 
+    text-align: left;
+}
+
+.HoverCob:hover {
+    opacity:1;
+    font-size: 7pt;
+    display: inline-block;
+}
+
+.ListCob-tooltip {
+    max-width: 230px;
+    max-height: 130px;
+    position: relative;
+    padding: 0 0 0 1.0em;
+    top:-44px;
+    left: 7px;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    color: #FFFFFF;
+    background: #007bff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ArrowCob-tooltip {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #007bff;
+    top:-40px;
+}
+
+#selectInputStatus:hover ~ .HoverCob {
+    opacity:1;
+    font-size: 7pt;
+    display: block;
+}
+
+#selectInputFase:hover ~ .HoverCob {
+    opacity:1;
+    font-size: 7pt;
+    display: block;
+}
+
+#selectInputComplement:hover ~ .HoverCob {
+    opacity:1;
+    font-size: 7pt;
+    display: block;
+}
+
+#selectInputStatus:hover ~ #selectInputFase ~ .HoverCob {
+    display: none;
+}
+
+.SelectCob-input {
+    margin: 0 0 0 4px;
+    padding-top: 5px; 
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 9pt;
+    width: 199px;
+}
+
+.LineCob-options {
+    width: 200px;
+    padding: 0 0 0 1.0em;
+}
+
+.DateCob-input {
+    text-align: left;
+    padding-top: 5px; 
+    line-height: 10px;
+}
+.Column-text-bold {
+    font-weight: bold;
+}
+
+.Column-description {
+    width: 20px;    
+}
+
+.Column-historico-data {
+    width: 5%;
+    min-width: 107px;
+    margin: 0 0 0 5px;
+}
+
+.Column-historico-name {
+    width: 93%;
+    margin: 0 0 0 5px;
+}
+
+.Column-createdBy {
+    font-size: 7pt;
+    color: black;
+    font-family: Verdana;
+    width: 300px;
+}
+
+.DateCob-picker {
+    margin: 0 0 0 4px;
+    padding: 4px 4px 4px 8px;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 7pt;
+    width: 199px;
+    height: 27px;
+    border:thin solid hsl(0,0%,80%);
+    border-radius: 4px 4px 4px 4px;
+}
+
+.react-datepicker, .react-datepicker__month-container, .react-datepicker-popper {
+    height: 160px;
+    font-size: 8pt;
+    margin: 2px 0px 0px 0px !important;
+}
+
+.react-datepicker__month{
+    height: 110px;
+    font-size: 8pt;
+    margin: 2px 0px 0px 0px !important;
+}
+
+.react-datepicker__week {
+    height: 18px;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.react-datepicker__day-names{
+    height: 25px;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.react-datepicker__current-month {
+    font-size: 8pt;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.ModalCob {
+    max-width: 100%;
+    padding: 0 25% 0 25%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.ModalCobReport {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal-backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.ModalCob-confirm {
+    max-width: 100%;
+    padding: 0 25% 0 25%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.ModalCob-header {
+    max-height: 100px !important;
+    padding-bottom: 1px !important;
+    padding-top: 10px !important;
+}
+
+.ModalCob-title-delete {
+    font-size: 12pt !important;
+    color: red;
+    font-weight: bold !important;
+    line-height: 20px !important;
+}
+
+.ModalCob-title-edit {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+}
+
+.ModalCob-title { 
+    font-size: 12pt !important;
+    font-weight: bold !important;
+}
+
+.ModalCob-title-all-registers {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+}
+
+.ModalCob-body {
+    min-height: 20px !important; 
+    font-family: Verdana,Arial,sans-serif !important;
+    font-size: 9pt !important;
+    text-align: left;
+    margin: -2px 0px 0px 0px;
+    padding: 1rem 1rem 1rem 1rem !important;
+}
+
+.ModalCobDelete-form {
+    height: 50px !important;
+    font-family: Verdana,Arial,sans-serif !important;
+    font-size: 9pt !important;
+    margin: 0 0 -23px 0 !important;
+}
+
+.ModalCob-label {
+    margin-bottom: 0;
+}
+
+.ModalCobEdit-form {
+    height: 90px !important;
+    font-family: Verdana,Arial,sans-serif !important;
+    font-size: 9pt !important;
+    margin: 0 0 -23px 0 !important;
+}
+
+.ModalCob-footer {
+    font-size: 11pt !important;
+    max-height: 35px !important;
+    min-height: 20px !important;
+    border-top: 0px;
+}
+
+.ButtonCob-modal-danger {
+    font-family: Arial;
+    font-size: 11px !important;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px !important;
+    padding: 3px 4px !important;
+    width: 75px;
+    line-height: 13px !important;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border: none;
+    cursor: pointer;
+} 
+
+.ButtonCob-modal-danger:active {
+    box-shadow: 0 0 0 0.2rem rgba(255, 38, 38, 0.5);
+}
+
+.ButtonCob-modal-danger:focus {
+    outline:0;
+}
+
+.ButtonCob-modal-primary {
+    font-family: Arial;
+    font-size: 11px !important;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px !important;
+    padding: 3px 4px !important;
+    width: 75px;
+    line-height: 13px !important;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: none;
+    cursor: pointer;
+} 
+
+.ButtonCob-modal-primary:active {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ButtonCob-modal-primary:focus {
+    outline:0;
+}
+
+.ButtonCob-modal-secondary {
+    font-family: Arial;
+    font-size: 11px !important;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px !important;
+    padding: 3px 4px !important;
+    width: 75px;
+    line-height: 13px !important;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-modal-secondary:active {
+    box-shadow: 0 0 0 0.2rem rgba(80, 80, 80, 0.5);
+}
+
+.ButtonCob-modal-secondary:focus {
+    outline:0;
+}
+
+.Panel-opened-button {
+    transform: rotate(360deg) !important;
+    float: left !important;
+    position: fixed;
+    margin-left: 205px;
+    z-index: 1031 !important;
+}
+
+.Panel-closed-button {    
+    transform: rotate(180deg) !important;
+    margin-left: 0px !important;
+    z-index: 1031 !important;
+}
+
+.Panel-opened-menu-buttons {
+    margin-left: 230px;
+}
+
+.Panel-closed-menu-buttons {
+    position: fixed;
+}
+
+.WidthCob-despesas-primary-column {
+    width: 57%;
+}
+
+.TableCob-backgroundColor {
+    background-color:rgb(255, 255, 255, 0.3) !important;
+}
+
+.TableCob-acionador {
+    width: 100%;
+}
+
+.TableCob-titulos {
+    width:30%;
+}
+
+.TableCob-logbatimentoPAN {
+    width:20%;
+}
+
+.Clickable {
+    cursor: pointer
+}
+
+.center {
+    margin: auto !important;
+    width: 1% !important;
+}
+
+.AlignCob-pager {
+    margin: 25px 0 0 0 !important;
+    padding: 0 5px 0 5px;
+    position: fixed;
+    clear: both;
+    display: block;
+    background-color:#FFFFFF;
+    width: 100%;
+    z-index:1;
+}
+
+.paginationCob-button {
+    border-radius: 0.50rem !important;
+    height: 20px;
+    min-width: 35px;
+    line-height: 3px;
+    font-size: 10pt;
+    display: inline-table;
+    margin-right: 1px; 
+}
+
+.whiteSpace-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.formatText {
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+.close {
+    padding: 0 5px 5px 0 !important;
+    margin: 0 !important;
+}
+
+.table-sm th {
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+.table-sm td {
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+.form-check-input {
+    margin-top: 0.1rem !important;
+    width: 12px;
+    height: 12px;
+}
+
+.ButtonCob-navbar-events-primary {
+    font-family: Arial;
+    font-size: 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 4px;
+    width: 80px;
+    line-height: 13px;
+    margin: 10px 5px 0 5px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-navbar-events-primary:active {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.ButtonCob-navbar-events-primary:focus {
+    outline:0;
+}
+
+.ButtonCob-navbar-events-secondary {
+    font-family: Arial;
+    font-size: 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 3px 4px;
+    width: 80px;
+    line-height: 13px;
+    margin: 10px 5px 0 5px;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonCob-navbar-events-secondary:active {
+    box-shadow: 0 0 0 0.2rem rgba(80, 80, 80, 0.5);
+}
+
+.ButtonCob-navbar-events-secondary:focus {
+    outline:0;
+}
+
+.tableCob-modal th {
+    padding: 0.1rem !important;
+    border: none !important;
+}
+
+.tableCob-modal td {
+    padding: 0.1rem !important;
+    border: none !important;
+}
+
+.SubColum-Acionamento {
+    font-size: 7pt;
+    color: black;
+    font-family: Verdana;
+    width: 15%;
+}
+
+.Column-Acionamento {
+    white-space: nowrap;
+}
+
+.Column-Acionamento-Data { width: 1% !important; margin: 0 10px 0 1.5px !important; }
+.Column-Acionamento-Telefone-Email { width: 20% !important; margin: 0 0 0 5px; }
+.Column-Acionamento-Resultado { width: 20% !important; margin: 0 0 0 5px; ; }
+.Column-Acionamento-Complemento { /*width: 50% !important;*/ margin: 0 0 0 5px; ; }
+.Column-Acionamento-Tipo { width: 1% !important; white-space: nowrap; margin: 0 0 0 5px }
+
+.Column-Acionamento-TipoAcao { width: 14.5% !important; }
+.Column-Acionamento-Telefone { width: 20% !important; }
+
+.LiCob-grid {
+    display: inline-block;
+    width: 50%;
+    list-style-type: none;
+}
+
+.UlCob-grid {
+    padding: 0;
+    margin-bottom: 0.3rem;
+    font-size: 7pt;
+    color: black;
+    list-style-type: none;
+    font-family: Verdana;
+}
+
+.UlCob-grid-inlineFlex {
+    padding: 0;
+    font-size: 7pt;
+    color: black;
+    list-style-type: none;
+    font-family: Verdana;
+    display: inline-flex;
+    margin-bottom: 0 !important;
+    word-break: break-all;
+}
+
+.LiCob-grid-TipoAcao {
+    width: 200px;
+} 
+
+.LiCob-grid-Telefone {
+    width: 100px; 
+}
+
+.LiCob-grid-IDChamada {
+    display: inline-block;
+    width: 200px;
+}
+
+.LiCob-grid-Ramal {
+    display: inline-block;
+    width: 100px;
+}
+
+.LiCob-grid-Tempos {
+    display: inline;
+    word-break: break-all;
+    -ms-word-break: break-all;
+    white-space: nowrap;
+}
+
+.UlCob-modal {
+    padding: 0;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+.UlCob-modal-inlineFlex {
+    padding: 0;
+    margin-bottom: 1%;
+    margin-top: 0;
+    display: inline-flex;
+    width: 100%;
+}
+
+.UlCobTextarea-modal {
+    padding: 0;
+    margin-bottom: 1%;
+    margin-top: 0;
+}
+
+.LiCob-modal {
+    display: inline-block;
+    width : 20%;
+    list-style-type: none;
+}
+
+.LiCob-modal-item {
+    font-weight: bold;
+}
+
+.LiCob-modal-value {
+    font-weight: normal;
+}
+
+.criadorPor-modal {
+    width: 70%;
+}
+
+.dataCriacao-modal {
+    width: 30%;
+}
+
+.textareaCob-Descricao {
+    font-family: Verdana,Arial,sans-serif !important;
+    font-size: 9pt !important;
+    width: 100%;
+    max-width: 100%;
+}
+
+.faseCob-modal {
+    width: 70%; 
+}
+
+.fichaCob-modal {
+    width: 15%; 
+}
+
+.dataCob-modal {
+    width: 15%; 
+}
+
+.faseCob-modal-edit {
+    width: 100%;
+}
+
+.LineCod-grid-detail-row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.paginationCob-button-prev {
+    border-radius: 0.50rem;
+    height: 20px;
+    line-height: 3px;
+    font-size: 10pt;
+    display: inline-table;
+    visibility: hidden;
+}
+
+.GridCob-Titulo-garantia {
+    max-width: 100%;
+    text-align: left; 
+    font-size: 8pt;
+    white-space: unset;
+    font-family: Verdana;
+    color: black;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.GridCob-Titulo-garantia td {
+    padding: 0 0 0 1%;
+}
+
+.GridCob-Titulo-garantia>tbody>tr:nth-child(1n):hover {
+    background-color: rgba(172, 172, 172, 0.397);
+}
+
+.GridCob-Titulo-garantia>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.GridCob-Titulo-garantia>tbody>tr:nth-child(2n){
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.theadCob-Garantia {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.GridCob-Titulo-despesa {
+    max-width: 100%;
+    text-align: left; 
+    font-size: 8pt;
+    white-space: unset;
+    font-family: Verdana;
+    color: black;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.GridCob-Titulo-despesa td {
+    padding: 0 0 0 1%;
+}
+
+.GridCob-Titulo-despesa>tbody>tr:nth-child(1n):hover {
+    background-color: rgba(172, 172, 172, 0.397);
+}
+
+.GridCob-Titulo-despesa>tbody>tr:nth-child(1n){
+    background-color: rgb(255, 255, 255, 0.1);
+} 
+
+.GridCob-Titulo-despesa>tbody>tr:nth-child(2n){
+    background-color: rgba(0, 0, 0, 0.05);
+} 
+
+.theadCob-despesa {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.AlignCob-data-cadastro-header, .AlignCob-data-cadastro {
+    text-align: center;
+}
+
+.AlignCob-valor-header, .AlignCob-valor {
+    padding-right: 1% !important;
+    text-align: right;
+    border-bottom: none;
+}
+
+.GridCob-Titulo-aviso {
+    max-width: 100%;
+    font-size: 8pt;
+    font-family: Verdana;
+    color: black;
+    margin-bottom: 0;
+}
+
+.alignTextHeader-titulo-aviso {
+    margin-left: -6.5%;
+}
+
+.GridCob-Titulo-aviso td, .GridCob-Titulo-aviso th {
+    border: none;
+}
+
+.tab-content-contrato {
+    border: solid #ccc 1px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    position: relative;
+}
+
+.tab-content-garantia {
+    border: solid #ccc 1px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.tab-content-despesa {
+    border: solid #ccc 1px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.tab-content-parcela {
+    border: solid #ccc 1px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-parcelas {
+    padding: 0 0 0 5px;
+}
+
+.text-contrato {
+    padding: 0 0 0 10px;
+}
+
+.icon-container:after {
+    color: white;
+    content: attr(numero);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    background-color: rgb(163, 158, 158);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    line-height: 1;
+    font-size: 8px;
+    margin: 0 0 0 65%;
+    bottom: 0px;
+    right: 0px;
+    transform: translate(80%, -80%);  
+    padding: 0 0 0.5px 0; 
+}
+
+.iconInfo {
+    width: 60px;
+    height: 60px;
+    color: rgb(153, 153, 153);
+}
+
+.iconInfo-titulo {
+    width: 50px;
+    height: 50px;
+    color: rgb(153, 153, 153);
+}
+
+.fontCob-awesome-not-register {
+    vertical-align: 0.5em !important;
+    font-size: 16px;
+    color: rgb(139, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontCob-awesome {
+    font-size: 14px;
+    color: rgb(139, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.divCob-fontawesome {
+    display: flex;
+    align-items: center;
+    margin: 10% 0 0 0;
+}
+
+.divCob-fontawesome-acionamento {
+    display: flex;
+    align-items: center;
+    margin: 6% 0 0 0;
+}
+
+.divCob-fontawesome-text {
+    text-align: left;
+}
+
+.divCob-fontawesome-icon {
+    margin: 0 0 0 35%;
+    padding: 10px;
+}
+
+.GridCob-all-registers {
+    max-width: 100%;
+    text-align: left;
+    font-size: 8pt;
+    white-space: unset;
+    font-family: Verdana;
+    color: black;
+    line-height: 13px; 
+    margin: 3% 0 0 0; 
+} 
+
+.table-responsive-all-registers>.table-responsive {
+    height: 250px;
+}
+
+.modal-content>.ModalCob-header>.ModalCob-body-registers {
+    max-width: 50%;
+}
+
+/* Substitui a classe close utilizada pelo componente ModalHeader, visto que o bot�o close nativo n�o funcionou dentro do cobsystem, tivemos que adaptar manualmente com essa classe */
+.close-modal {    
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color:gray;
+    text-shadow: 0 1px 0 #fff;
+    background-color: transparent;
+}
+
+/* Essa clase pode ser utilziada para criar tabelas de div's*/
+.divToTable >div{
+    /*display: flex;*/
+    width: 90% !important;
+    border: 0px;
+    flex-direction: horizonal;
+  }
+.divToTable >div >div{
+    padding: 4px;
+}
+
+.divToTable-Cell > div >div{
+    /*display: block;*/
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-bottom: 0px;
+    height: 30px;    
+}
+
+.divToTable-Cell-Description {
+    /*max-width: 400px !important;*/
+    white-space: pre-wrap;       /* CSS3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word; 
+}
+
+/* As clases Colspan podem ser utilizadas para simularem o efeito de colspan das tag td quando montado tabelas com div em conjunto com a classe divTable*/
+.Colspan-1 {
+    flex-grow: 1;
+}
+
+.Colspan-2 {
+    flex-grow: 2;
+}
+
+.Colspan-3 {
+    flex-grow: 3;
+}
+
+.Colspan-99 {    
+    flex-grow: 99;
+    /*position: absolute;*/
+}
+
+.react-datepicker__close-icon::after { 
+    background-color: #FFF !important;
+    color: black;
+    padding: 1px;
+}
+
+.marginWithPaginator {
+    margin: 0 0 0 0;
+}
+
+.marginWithoutPaginator {
+    margin: 30px 0 0 0;
+}
+
+.floatHeader {
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid rgb(222, 226, 230);
+    border-bottom: 2px solid rgb(222, 226, 230);
+    color: rgb(25, 25, 112);
+    font-size: 9pt;
+    font-family: Tahoma;
+    font-weight: bold;
+    line-height: 11px;
+    background-color: white;
+    z-index: 1;
+    padding: 5px 0 0 0;
+}
+
+.floatHeader ul {
+    list-style: none;
+    width: 100%;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type=radio]::-ms-check {
+    border-color: rgb(163, 158, 158);
+    color: rgba(0, 0, 0);
+}
+  
+input[type=checkbox]::-ms-check {
+    border-color: rgb(163, 158, 158);
+    color: rgba(0, 0, 0);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+input[type=checkbox] {
+    border-radius: 20%;
+    border: 1px solid rgb(0,0,0);
+}

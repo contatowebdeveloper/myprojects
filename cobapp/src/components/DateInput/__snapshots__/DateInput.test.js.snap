@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render DateInput component render correctly date component and create a snapshot 1`] = `
+<div
+  className="DateCob-input"
+>
+  <div
+    className="react-datepicker-wrapper"
+  >
+    <div
+      className="react-datepicker__input-container"
+    >
+      <input
+        className="DateCob-picker"
+        disabled={false}
+        mask={
+          Array [
+            /\\\\d/,
+            /\\\\d/,
+            "/",
+            /\\\\d/,
+            /\\\\d/,
+            "/",
+            /\\\\d/,
+            /\\\\d/,
+            /\\\\d/,
+            /\\\\d/,
+          ]
+        }
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;

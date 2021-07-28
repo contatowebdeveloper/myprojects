@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Page component render correctly pager component and create a snapshot 1`] = `
+<div
+  className="AlignCob-pager"
+  id="divPager"
+>
+  <button
+    className="paginationCob-button-prev btn btn-outline-primary"
+    disabled={false}
+    id="btnPagePrev"
+    onClick={[Function]}
+    type="button"
+  >
+    ‹
+  </button>
+  <button
+    className="paginationCob-button btn btn-outline-primary"
+    disabled={false}
+    id="btnPageNext"
+    onClick={[Function]}
+    type="button"
+  >
+    ›
+  </button>
+</div>
+`;
